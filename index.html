@@ -75,14 +75,18 @@
                         }
                     });
             })();
+            //wait for page load
             window.addEventListener("load", () => {
-                if (window.location.hash) {
+                //delay by 100ms
+                setTimeout(()=>{
+                    //rescroll to header
+                    if (window.location.hash) {
                     const target = document.querySelector(window.location.hash);
                     if (target) {
                         // Re-trigger the scroll once the banner/JS content is ready
                         target.scrollIntoView();
                     }
-                }
+                }}, 100);
             });
         </script>
         <div class="content">
