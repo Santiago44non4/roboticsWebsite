@@ -1,6 +1,6 @@
 {
   "name": "STRUGIE",
-  "heroTitle": "strugie",
+  "heroTitle": "Strugie",
   "image": "photos/CENTERSTAGE1.png",
   "stack": [
     { "title": "Drive", "body": "Mecanum Drive" },
@@ -58,14 +58,7 @@
     {
       "src": "photos/CENTERSTAGE2.png",
       "alt": "Strugie"
-    },
-    {
-      "src": "photos/CENTERSTAGE3.png",
-      "alt": "Strugie"
-    },
-    {
-      "src": "photos/CENTERSTAGE4.png",
-      "alt": "Strugie"
     }
+   
   ]
 }

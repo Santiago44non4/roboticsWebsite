@@ -11,11 +11,11 @@
 footer {
     padding: 40px 20px;
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 247, 0, 0.304);
     margin-top: 80px;
-    color: #666;
+    color: #ff000066;
     font-size: 0.9rem;
-    background: var(--bg-black);
+    background: #000000;
     position: relative;
     z-index: 1;
 }
@@ -34,7 +34,7 @@ footer ul {
 
 /* Style footer links */
 footer a {
-    color: #666;
+    color: #e7e7e7;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -58,7 +58,7 @@ footer li:last-child a {
 }
 
 footer li:last-child a svg {
-    fill: #666;
+    fill: #e7e7e7;
     transition: fill 0.2s ease;
 }
 
